@@ -1,78 +1,62 @@
-* {
-    box-sizing: border-box;
-}
 body {
-    font-family: "Berlin Sans FB";
+    font-family: 'Raleway', sans-serif !important;
 }
-h2 {
-    background-color: brown;
-    display: block;
-    position: relative;
-    margin-top: 0px;
-    float: right;
-    text-align: center;
-    width: 30%;
-    overflow: hidden;
+#navbar-menu {
+    margin: 30px 130px 30px 70px;
+    background-color: inherit;
+    border: none;
+}
+.navbar-brand span.brand-name-header{
+
+    font-size: 29px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center !important;
+}
+
+.brand-name-header {
+    margin-left: 10px;
+}
+#menu-items li a{
+    color: #495254;
+    margin-left: 40px;
+    margin-right: 40px;
     font-size: 20px;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    align-items: center !important;
 }
-.pink {
-    background-color: lightpink;
-}
-.red {
+#menu-items li #get-quote{
+    background-color: #47AEE1;
+    border-radius: 30px;
     color: white;
-}
-.yellow {
-    background-color: gold;
-}
-.mainheader {
+    margin-right: unset;
     width: 100%;
-}
-p {
-    clear: both;
-    padding: 2%;
-}
-.innerdiv {
-    width: 94%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: darkgray;
-    border: 2px solid black;
-    clear: right;
-    margin-top: 10px;
-    margin-top: 10px;
-}
-
-h1 {
-    margin-bottom: 20px;
     text-align: center;
 }
-
-.section {
-    width: 100%;
+.h1-tag-text {
+    margin-top: 10%;
 }
-@media (min-width: 992px) {
-    .col-lg-4{
-        width: 33.33%;
-        float: left
-    }
+h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6 {
-        width: 50%;
-        float: left;
-        position: relative;
-    }
-    .col-md-12 {
-        margin-top: 15px;
-        clear: both;
-        float: right;
-        margin-right: auto;
-        margin-left: auto;
-        width: 100%;
-    }
-    .col-md-12 .innerdiv {
-        width: 97%;
-    }
+h1 span{
+    color: #47AEE1;
+    font-weight: bold;
+}
+.h1-tag-text button {
+    background-color: #47AEE1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin-top: 15px;
+}
+.h1-tag-text button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.glyphicon-arrow-right {
+    margin-right: 10px;
 }
